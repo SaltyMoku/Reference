@@ -1,10 +1,3 @@
-# A - X - 1 Rock
-# B - Y - 2 Paper
-# C - Z - 3 Scissors
-# 0 - Lost
-# 3 - Draw
-# 6 - Win
-
 your_score = 0
 for line in (open("input.txt")):
     line.split(" ")

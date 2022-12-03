@@ -18,7 +18,7 @@ Output a file txt:
 
 Output a JSON:
 ```powershell
- | ConvertTo-Json
+| ConvertTo-Json
 ```
 
 File hash:
