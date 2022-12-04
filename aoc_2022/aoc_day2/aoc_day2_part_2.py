@@ -25,5 +25,4 @@ for line in (open("input.txt")):
             your_score = your_score + 6 + 3
         elif line[0] == "C":
             your_score = your_score + 6 + 1
-
 print("Your score is: " + str(your_score))
