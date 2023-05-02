@@ -3,7 +3,7 @@ Powershell Utilities
 
 Research file:
 ```powershell
-Get-Childitem –Path C:\ -Include *.exe -Recurse -ErrorAction SilentlyContinue
+Get-Childitem -Path C:\ -Include *.exe -Recurse -ErrorAction SilentlyContinue
 ```
 
 Select single value:
