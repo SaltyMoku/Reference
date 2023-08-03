@@ -109,3 +109,8 @@ Show more information about logical disks:
 ```
 wmic logicaldisk get deviceid, volumename, description
 ```
+
+Show partitions:
+```
+wmic partition list
+```
