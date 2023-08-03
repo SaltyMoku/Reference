@@ -94,7 +94,18 @@ route print
 route add 192.168.10.0 mask 255.255.255.0 10.1.2.3
 route delete 192.168.10.0
 ```
+
 Restart PC to BIOS:
 ```
 shutdown /r /fw /f /t 0
+```
+
+Show logical disks (volumes letter):
+```
+wmic logicaldisk get name
+```
+
+Show more information about logical disks:
+```
+wmic logicaldisk get deviceid, volumename, description
 ```
