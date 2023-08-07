@@ -105,9 +105,9 @@ Show logical disks (volumes letter):
 wmic logicaldisk get name
 ```
 
-Show more information about logical disks:
+Show more information about logical disks. To get size in GB, divide results by 1024^3 (1073741824):
 ```
-wmic logicaldisk get deviceid, volumename, description
+wmic logicaldisk get deviceid, volumename, description, size
 ```
 
 Show partitions:
