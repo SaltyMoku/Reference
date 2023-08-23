@@ -1,0 +1,2 @@
+[List.Rules:first_capital_letter_and_append_five_special_characters]
+cAz”[0-9!@#$%^&*()_+][0-9!@#$%^&*()_+][0-9!@#$%^&*()_+][0-9!@#$%^&*()_+][0-9!@#$%^&*()_+]”
