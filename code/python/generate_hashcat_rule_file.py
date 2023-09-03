@@ -3,22 +3,22 @@
 def generate_hashcat_rules():
     rules = []
     for i in range(10):
-        rules.append("T" + str(i))
+        rules.append("$" + str(i))
         
     for i in range(10):
         for j in range(10):
-            rules.append("T" + str(i) + "T" + str(j))
+            rules.append("$" + str(i) + "$" + str(j))
             
     for i in range(10):
         for j in range(10):
             for k in range(10):
-                rules.append("T" + str(i) + "T" + str(j) + "T" + str(k))
+                rules.append("$" + str(i) + "$" + str(j) + "$" + str(k))
                 
     for i in range(10):
         for j in range(10):
             for k in range(10):
                 for l in range(10):
-                    rules.append("T" + str(i) + "T" + str(j) + "T" + str(k) + "T" + str(l))
+                    rules.append("$" + str(i) + "$" + str(j) + "$" + str(k) + "$" + str(l))
                     
     return rules
 
