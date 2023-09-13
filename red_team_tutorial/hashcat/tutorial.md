@@ -7,7 +7,7 @@ Hashcat Codes with examples are available [here](https://hashcat.net/wiki/doku.p
 
 ## Usage
 
-Identify the hash format using [haiti](./tutorial.md)
+Identify the hash format using [haiti](./haiti/)
 
 Hashcat cat use multiple attack modes, showed by running `hashcat --help`.
 Each mode has its own syntax.
