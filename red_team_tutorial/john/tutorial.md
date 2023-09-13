@@ -4,7 +4,7 @@
 
 ## Usage
 
-Identify the hash format using [haiti](./tutorial.md)
+Identify the hash format using [haiti](./haiti/)
 
 Crack of *hash.txt* using the wordlist *wordlist.txt*, applying the rule *CustomRule*:
 ```
