@@ -22,7 +22,7 @@ void loop() {
   DigiKeyboard.delay(1500);
   DigiKeyboard.print("powershell");
   DigiKeyboard.delay(300);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_SHIFT_LEFT | MOD_CONTROL_LEFT); // KeyStroke function only allows one KEY, but as many MOD as you wish. This allwos to send multiple
+  DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_SHIFT_LEFT | MOD_CONTROL_LEFT); // KeyStroke function only allows one KEY, but as many MOD as you wish. This allows to send multiple
   DigiKeyboard.delay(3000);
   DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
   DigiKeyboard.delay(500);
